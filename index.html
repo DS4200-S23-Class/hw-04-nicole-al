@@ -9,12 +9,26 @@
   <body>
     <h1>hw-04: Event Handling</h1>
     <div class="row">
-      <div class="col-1"></div>
-      <div class="col-2"></div>
+      <div class="col-1">
+        <svg id="frame" width="100%" height="500"></svg>
+      </div>
+      <div class="col-2">
+        <p id="last-click"></p>
+        <form>
+          <label for="xAxis">x-axis</label>
+          <input id="xAxis" type="range" min="1" max="9" />
+          <span id="xOutput"></span>
+          <br />
+          <label for="yAxis">y-axis</label>
+          <input id="yAxis" type="range" min="1" max="9" />
+          <span id="yOutput"></span>
+          <button type="button" onclick="addPoint()">Add point</button>
+        </form>
+      </div>
     </div>
-    <h3>Acknowledgements</h3>
+    <h3 class="center">Acknowledgements</h3>
     <ul>
-      <li></li>
+      <li>https://www.w3schools.com/howto/howto_js_rangeslider.asp</li>
     </ul>
   </body>
   <script src="main.js"></script>

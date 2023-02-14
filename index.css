@@ -2,6 +2,10 @@ body {
   font-family: Arial;
 }
 
+.center {
+  text-align: center;
+}
+
 .row {
   display: flex;
 }
